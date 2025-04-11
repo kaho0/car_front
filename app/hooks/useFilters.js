@@ -1,3 +1,4 @@
+// hooks/useFilters.js
 'use client';
 
 import { useMemo } from 'react';
@@ -32,10 +33,11 @@ export function useFilters(cars = [], filters = {}) {
       );
     }
 
-    if (filters.sort === 'asc') {
-      filtered = filtered.sort((a, b) => a.price - b.price);
-    } else if (filters.sort === 'desc') {
-      filtered = filtered.sort((a, b) => b.price - a.price);
+    // Updated to match the values from Filters component
+    if (filters.sort === 'price_asc') {
+      filtered.sort((a, b) => a.price - b.price);
+    } else if (filters.sort === 'price_desc') {
+      filtered.sort((a, b) => b.price - a.price);
     }
 
     return filtered;

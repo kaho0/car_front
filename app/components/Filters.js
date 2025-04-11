@@ -22,7 +22,15 @@ export default function Filters({ filters = {}, setFilters, brands = [], fuelTyp
     sort: '',
     ...filters // This will overwrite defaults with any values that exist in filters
   };
-
+  const sortCars = (cars, sortOption) => {
+    if (sortOption === 'price_asc') {
+      return cars.sort((a, b) => a.price - b.price);
+    } else if (sortOption === 'price_desc') {
+      return cars.sort((a, b) => b.price - a.price);
+    }
+    return cars; // Default (no sorting)
+  };
+  
   return (
     <div className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 p-6 rounded-xl shadow-lg mb-8 border border-gray-100 dark:border-gray-700">
       <div className="flex items-center justify-between mb-6">

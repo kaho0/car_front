@@ -119,7 +119,7 @@ export default function CarsListComponent() {
                     />
                   </div>
                   <div className="p-4">
-                    <h2 className="text-xl font-semibold">{car.brand} {car.model}</h2>
+                    <h2 className="text-xl text-white font-semibold">{car.brand} {car.model}</h2>
                     <p className="text-gray-500">{car.year}</p>
                     <p className="text-lg font-bold text-pink-500 mt-2">${car.price?.toLocaleString()}</p>
                   </div>
