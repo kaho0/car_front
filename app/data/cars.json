@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1",
+    "brand": "Tesla",
+    "model": "Model 3",
+    "price": 45000,
+    "fuel": "Electric",
+    "seats": 5,
+    "year": 2023,
+    "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399",
+    "description": "The Tesla Model 3 is an all-electric four-door sedan manufactured by Tesla. Known for its minimalist interior design and advanced technology features.",
+    "features": [
+      "Autopilot",
+      "Full Self-Driving Capability",
+      "15\" Touchscreen Display",
+      "Glass Roof",
+      "Wireless Charging",
+      "Premium Audio System"
+    ]
+  },
+  {
+    "id": "2",
+    "brand": "Toyota",
+    "model": "Camry",
+    "price": 35000,
+    "fuel": "Hybrid",
+    "seats": 5,
+    "year": 2023,
+    "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb",
+    "description": "The Toyota Camry Hybrid combines efficiency with comfort. Features a sophisticated hybrid powertrain that delivers excellent fuel economy without compromising on performance.",
+    "features": [
+      "Toyota Safety Sense 2.5+",
+      "Hybrid Powertrain",
+      "9\" Touchscreen",
+      "Apple CarPlay & Android Auto",
+      "Dual-Zone Climate Control",
+      "LED Headlights"
+    ]
+  },
+  {
+    "id": "3",
+    "brand": "BMW",
+    "model": "i4",
+    "price": 55000,
+    "fuel": "Electric",
+    "seats": 5,
+    "year": 2023,
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738",
+    "description": "The BMW i4 is a fully electric gran coupé that combines BMW's renowned driving dynamics with zero-emission mobility.",
+    "features": [
+      "BMW iDrive 8",
+      "Curved Display",
+      "Active Air Stream Kidney Grille",
+      "Sport Seats",
+      "Harman Kardon Sound System",
+      "Parking Assistant"
+    ]
+  },
+  {
+    "id": "4",
+    "brand": "Ford",
+    "model": "Mustang GT",
+    "price": 47000,
+    "fuel": "Petrol",
+    "seats": 4,
+    "year": 2022,
+    "image": "https://images.unsplash.com/photo-1625866857467-5c1ffb58d58e",
+    "description": "The Ford Mustang GT is an iconic American muscle car, known for its powerful V8 engine, aggressive styling, and thrilling performance.",
+    "features": [
+      "5.0L V8 Engine",
+      "Track Apps",
+      "Launch Control",
+      "Leather Seats",
+      "12\" Digital Instrument Cluster",
+      "LED Sequential Tail Lamps"
+    ]
+  },
+  {
+    "id": "5",
+    "brand": "Honda",
+    "model": "Civic",
+    "price": 28000,
+    "fuel": "Petrol",
+    "seats": 5,
+    "year": 2023,
+    "image": "https://images.unsplash.com/photo-1615751280546-49e47f6d7927",
+    "description": "The Honda Civic blends style and performance in a compact sedan. Known for its fuel efficiency, reliability, and sporty driving dynamics.",
+    "features": [
+      "Turbocharged Engine",
+      "Honda Sensing Suite",
+      "7\" Digital Gauge Cluster",
+      "Apple CarPlay & Android Auto",
+      "Heated Front Seats",
+      "Rearview Camera"
+    ]
+  },
+  {
+    "id": "6",
+    "brand": "Audi",
+    "model": "Q5",
+    "price": 52000,
+    "fuel": "Diesel",
+    "seats": 5,
+    "year": 2023,
+    "image": "https://images.unsplash.com/photo-1616789430760-08b4f40855f4",
+    "description": "The Audi Q5 is a luxury compact SUV offering a comfortable ride, upscale interior, and cutting-edge technology.",
+    "features": [
+      "Quattro All-Wheel Drive",
+      "Virtual Cockpit",
+      "Panoramic Sunroof",
+      "Bang & Olufsen Sound System",
+      "Driver Assistance Package",
+      "LED Headlights with DRLs"
+    ]
+  }
+]

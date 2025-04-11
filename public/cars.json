@@ -1,0 +1,194 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "brand": "Mazda",
+      "model": "MX-5",
+      "price": 28000,
+      "fuel": "Gasoline",
+      "seats": 2,
+      "year": 2015,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg/400px-2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg",
+      "description": "The Mazda MX-5, also known as Miata, is a lightweight two-passenger roadster sports car manufactured by Mazda since 1989.",
+      "features": [
+        "SKYACTIV Technology",
+        "Rear-Wheel Drive",
+        "Convertible Top",
+        "Sport-Tuned Suspension",
+        "Leather-Wrapped Steering Wheel",
+        "Premium Sound System"
+      ]
+    },
+    {
+      "id": "2",
+      "brand": "Porsche",
+      "model": "Cayenne",
+      "price": 72000,
+      "fuel": "Hybrid",
+      "seats": 5,
+      "year": 2014,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg/400px-2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg",
+      "description": "The Porsche Cayenne is a mid-size luxury crossover SUV produced since 2002, combining Porsche performance with SUV versatility.",
+      "features": [
+        "All-Wheel Drive",
+        "Sport Chrono Package",
+        "Adaptive Air Suspension",
+        "BOSE Surround Sound",
+        "Panoramic Roof System",
+        "Porsche Active Suspension Management"
+      ]
+    },
+    {
+      "id": "3",
+      "brand": "Ford",
+      "model": "Crown Victoria",
+      "price": 28500,
+      "fuel": "Gasoline",
+      "seats": 6,
+      "year": 2008,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ford_Crown_Victoria_LX.jpg/400px-Ford_Crown_Victoria_LX.jpg",
+      "description": "The Ford Crown Victoria is a full-size sedan that was produced from 1955 to 2011, known for its durability and widespread use as police and taxi vehicles.",
+      "features": [
+        "V8 Engine",
+        "Rear-Wheel Drive",
+        "Heavy-Duty Frame",
+        "Spacious Interior",
+        "Power Adjustable Seats",
+        "Automatic Climate Control"
+      ]
+    },
+    {
+      "id": "4",
+      "brand": "Plymouth",
+      "model": "Superbird",
+      "price": 185000,
+      "fuel": "Gasoline",
+      "seats": 5,
+      "year": 1970,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Plymouth_Superbird.jpg/400px-Plymouth_Superbird.jpg",
+      "description": "The Plymouth Superbird is a modified Road Runner with aerodynamic improvements designed for NASCAR racing, featuring its iconic high rear wing.",
+      "features": [
+        "426 HEMI V8 Engine Option",
+        "Aerodynamic Nose Cone",
+        "High Rear Wing",
+        "Air Grabber Hood",
+        "Heavy-Duty Suspension",
+        "Performance Axle Package"
+      ]
+    },
+    {
+      "id": "5",
+      "brand": "Jaguar",
+      "model": "X-Type",
+      "price": 32000,
+      "fuel": "Gasoline",
+      "seats": 5,
+      "year": 2006,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jaguar_X-Type_Estate_front_20080731.jpg/400px-Jaguar_X-Type_Estate_front_20080731.jpg",
+      "description": "The Jaguar X-Type is a compact executive car produced between 2001 and 2009, available in sedan and estate variants with all-wheel drive options.",
+      "features": [
+        "All-Wheel Drive System",
+        "Wood Veneer Interior Trim",
+        "Leather Seating",
+        "Touchscreen Navigation",
+        "Premium Sound System",
+        "Automatic Climate Control"
+      ]
+    },
+    {
+      "id": "6",
+      "brand": "Volkswagen",
+      "model": "Phaeton",
+      "price": 68000,
+      "fuel": "Diesel",
+      "seats": 5,
+      "year": 2011,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg/400px-VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg",
+      "description": "The Volkswagen Phaeton is a full-size luxury sedan produced from 2002 to 2016, representing Volkswagen's premium flagship model.",
+      "features": [
+        "4MOTION All-Wheel Drive",
+        "Air Suspension",
+        "Draft-Free Air Conditioning",
+        "Heated and Ventilated Seats",
+        "Dynaudio Sound System",
+        "18-Way Adjustable Seats"
+      ]
+    },
+    {
+      "id": "7",
+      "brand": "Pontiac",
+      "model": "Solstice",
+      "price": 24500,
+      "fuel": "Gasoline",
+      "seats": 2,
+      "year": 2008,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/PontiacSolstice.jpg/400px-PontiacSolstice.jpg",
+      "description": "The Pontiac Solstice is a sports car that was produced from 2005 to 2009, available as both a roadster and a coupe.",
+      "features": [
+        "Rear-Wheel Drive",
+        "Convertible Top",
+        "Sport-Tuned Suspension",
+        "Leather-Wrapped Steering Wheel",
+        "Monsoon Premium Audio",
+        "Limited-Slip Differential"
+      ]
+    },
+    {
+      "id": "8",
+      "brand": "Aston Martin",
+      "model": "DB9",
+      "price": 195000,
+      "fuel": "Gasoline",
+      "seats": 4,
+      "year": 2010,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Aston_Martin_DB9_coupe_02.jpg/400px-Aston_Martin_DB9_coupe_02.jpg",
+      "description": "The Aston Martin DB9 is a grand tourer produced from 2004 to 2016, known for its elegant design and powerful V12 engine.",
+      "features": [
+        "6.0L V12 Engine",
+        "Carbon Ceramic Brakes",
+        "Adaptive Damping System",
+        "Bang & Olufsen Audio",
+        "Full-Grain Leather Interior",
+        "Satellite Navigation System"
+      ]
+    },
+    {
+      "id": "9",
+      "brand": "Oldsmobile",
+      "model": "Toronado",
+      "price": 28000,
+      "fuel": "Gasoline",
+      "seats": 6,
+      "year": 1970,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Oldsmobile_Toronado_0003.jpg/400px-Oldsmobile_Toronado_0003.jpg",
+      "description": "The Oldsmobile Toronado is a personal luxury car produced from 1965 to 1992, notable for being the first U.S. front-wheel drive car since 1937.",
+      "features": [
+        "Front-Wheel Drive",
+        "Rocket V8 Engine",
+        "Hidden Headlights",
+        "Flat Floor Design",
+        "Power Windows",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": "10",
+      "brand": "Volkswagen",
+      "model": "Corrado",
+      "price": 23500,
+      "fuel": "Gasoline",
+      "seats": 4,
+      "year": 1992,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/1985-89_Plymouth_Reliant_K_LE.png/400px-1985-89_Plymouth_Reliant_K_LE.png",
+      "description": "The Volkswagen Corrado is a sport compact car produced from 1988 to 1995, featuring a active rear spoiler that raises at high speeds.",
+      "features": [
+        "VR6 Engine Option",
+        "Active Rear Spoiler",
+        "Sport-Tuned Suspension",
+        "ABS Braking System",
+        "Recaro Sports Seats",
+        "Power Sunroof"
+      ]
+    }
+  ]
+}
