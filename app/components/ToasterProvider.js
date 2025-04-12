@@ -1,14 +1,21 @@
-'use client'
+// components/ToasterProvider.js
+'use client';
 import React, { createContext, useState, useContext } from 'react';
 
 const ToastContext = createContext();
 
-export const useToast = () => useContext(ToastContext);
+export const useToast = () => {
+  const context = useContext(ToastContext);
+  if (!context) {
+    throw new Error('useToast must be used within a ToasterProvider');
+  }
+  return context;
+};
 
 export default function ToasterProvider({ children }) {
   const [toasts, setToasts] = useState([]);
   
-  const addToast = (message, type = 'info', duration = 3000) => {
+  const showToast = (message, type = 'info', duration = 3000) => {
     const id = Math.random().toString(36).substr(2, 9);
     setToasts(prev => [...prev, { id, message, type, duration }]);
     
@@ -18,7 +25,7 @@ export default function ToasterProvider({ children }) {
   };
   
   return (
-    <ToastContext.Provider value={{ addToast }}>
+    <ToastContext.Provider value={{ showToast }}>
       {children}
       <div className="fixed bottom-4 right-4 z-50 flex flex-col space-y-2">
         {toasts.map(toast => (
